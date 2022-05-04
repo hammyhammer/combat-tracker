@@ -10,3 +10,7 @@ A side passion project I thought of while playing DnD. An application that keeps
 
 ## Technologies Used
 #React
+
+## External APIs used
+- https://www.dnd5eapi.co/api/equipment
+- https://www.dnd5eapi.co/api/conditions
