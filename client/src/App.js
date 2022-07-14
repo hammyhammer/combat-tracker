@@ -1,7 +1,8 @@
 import './App.css';
 // import { getEquipment } from './services/dndApi';
 import { useState, useEffect } from 'react';
-
+import { Routes, Route } from 'react-router-dom';
+import Homepage from './screens/homepage';
 function App() {
   const [equipment, setEquipment] = useState([]);
 
@@ -17,9 +18,9 @@ function App() {
 
   return (
     <div className='App'>
-      Hello
-      <div>
-      </div>
+      <Routes>
+        <Route path='/' element={<Homepage />} />
+      </Routes>
     </div>
   );
 }
